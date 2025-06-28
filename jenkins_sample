@@ -1,0 +1,15 @@
+Create CI JOB to build backend application
+
+		Stage-1 : Clone Git Repo
+
+		Stage-2 : Maven Build
+
+		Stage-3 : Sonar Code Review
+
+		Stage-4 : Nexus Upload
+
+		Stage-5 : Docker Image Creation
+
+		Stage-6 : Trivy Scan docker image
+
+		Stage-7 : Push Docker Image
